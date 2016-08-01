@@ -53,6 +53,7 @@ header.page-head .brand{
   margin-bottom: 10px;
 }
 
+
 .lead-pull-right{
   float: right;
 }
@@ -119,6 +120,18 @@ header.page-head .brand{
   background: rgba(189, 195, 199, .3);
   -webkit-transition: .33s all ease-in-out;
   transition: .33s all ease-in-out;  */
+}
+
+.home-align{
+  text-align: center;
+}
+
+.partner-section{
+  margin-bottom: 30px;  
+}
+
+.mid-hero{
+  margin: 30px;
 }
 
 #symantec-seal{

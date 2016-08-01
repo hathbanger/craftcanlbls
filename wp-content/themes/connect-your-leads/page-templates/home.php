@@ -75,6 +75,75 @@
         </div>
         <!-- /.row service-modules -->
     </section>
+
+
+    <section class="why-partner">
+        
+
+        <div class="row">
+            <div class="col-md-12 partner-section">
+                <h2 class="home-align">
+                    Why Partner With Connect Your Leads?
+                </h2>
+
+                <div class="col-md-6">
+                    <h4 class="home-align">
+                        Buy Leads
+                    </h4>
+                    <p class="home-align">
+                        We have leads dealing with new movers, renters, and homeowners waiting just for you!
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <h4 class="home-align">
+                        Sell Leads
+                    </h4>
+                    <p class="home-align">
+                        You have leads for new movers, renters, and customers looking to save on home services and we want them!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="masthead mid-hero">
+                    <?php $hero_image_mid = get_field('homepage_hero_mid');?>
+                    <img src="<?php echo $hero_image_mid['url']; ?>" alt="<?php echo $hero_image_mid['alt'] ?>" />
+                </div>
+            </div>
+            <!-- /.col-md-12 -->
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="home-align">
+                    Who We Are:
+                </h5>
+                <div class="col-md-10  col-md-offset-1">
+                    <p>
+                        Connect Your Leads is a subsidiary of Connect Your Home, a leading national retailer in the home service industry based in Denver, Colorado. This privately owned company is an award-winning retailer for the nation’s top providers of TV, Internet, Phone & Home Security services.
+                        Connect Your Leads developed into its own identity gradually as different avenues opened up with companies with like goals and objectives. Now Connect Your Leads has become its own branch in the Connect Your Home Family successfully helping companies achieve their sales goals.                        
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="home-align">
+                    Meet With Connect Your Leads At:
+                </h5>
+                <div class="col-md-12">
+                    <?php if (have_posts()) : while (have_posts()) : the_post();?>
+                    <?php the_content(); ?>
+                    <?php endwhile; endif; ?>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
 <!-- /.one-brand -->
 <?php include 'modal-form.php' ?>
 <div class="col-md-12">
