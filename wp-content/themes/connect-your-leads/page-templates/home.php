@@ -13,17 +13,17 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="masthead">
-                    <?php $hero_image = get_field('homepage_hero'); ?>
+                    <?php $hero_image = get_field('homepage_hero');?>
                     <img src="<?php echo $hero_image['url']; ?>" alt="<?php echo $hero_image['alt'] ?>" />
                     <div class="masthead-widget">
                         <p>
                             Find Home Services. Find Deals. Right Here.
                         </p>
-                        <form style="color: black" action="/results" method="post">
+<!--                         <form style="color: black" action="/results" method="post">
                             <input type="text" class="form-control" placeholder="Street" name="street">
                             <input type="text" class="form-control" placeholder="Zip" name="zip">
                             <input class="btn btn-orange" type="submit">
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
