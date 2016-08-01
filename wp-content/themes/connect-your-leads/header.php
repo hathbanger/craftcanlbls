@@ -34,14 +34,6 @@
                 <div class="col-md-8 col-md-offset-1 col-sm-offset-0 col-sm-9 double-row">
                     <div class="row top-search">
                         <div class="col-md-12 col-sm-7 col-sm-offset-5 col-md-offset-0">
-                            <label for="search" placeholder="Search Address, City or Zip">Find Local Home Services In Your Area</label>
-                            <form onsubmit="return false;">
-                            <div class="form-holder">
-                                    <input class="testing input address-autocomplete" type="form-control" name="search" id="address" placeholder="Enter address" style="padding:2px;width:308px;">
-                             
-                                <button class="btn btn-green search-button">Go!</button> 
-                            </div>   
-                            </form>
                         </div>
                     </div>
                     <!-- /row -->
@@ -51,10 +43,10 @@
                             <div class="phone">
                                 <span class="phone-label">Order Now:</span>
                 <?php
-                if(get_field('edp_brand_phone')){ ?>
-                    <a href="tel:<?php echo get_field('edp_brand_phone', 'option');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
+                if(get_field('cyl_phone_number')){ ?>
+                    <a href="tel:<?php echo get_field('cyl_phone_number', 'option');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
                     <?php
-                        echo get_field('edp_brand_phone');
+                        echo get_field('cyl_phone_number');
                 }elseif(get_field('phone_number_one_brand')){ ?><a href="tel:<?php echo get_field('phone_number_one_brand');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
                 <?php
                         echo get_field('phone_number_one_brand');

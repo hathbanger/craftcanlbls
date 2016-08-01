@@ -1,11 +1,17 @@
 <?php
 
+
+
+
+
 $dir = dirname(__FILE__);
 // register custom nav
 
 add_action( 'after_setup_theme', 'cyh_setup' );
 
 //remove_filter('template_redirect','redirect_canonical');
+
+
 
 function cyh_setup()
 {
@@ -22,6 +28,17 @@ array( 'header-menu' => __( 'Header Menu', 'cyh' ),
 
 }
 add_action( 'wp_enqueue_scripts', 'cyh_load_scripts' );
+
+
+if( function_exists('acf_add_options_page') ) {
+  
+  acf_add_options_page();
+  
+}
+
+
+
+
 function cyh_load_scripts()
 {
 wp_enqueue_script( 'jquery' );
@@ -180,7 +197,6 @@ function qt_custom_breadcrumbs() {
  
   }
 } // end qt_custom_breadcrumbs()
-
 
 
 // Add Shortcode for Phone Number Block
