@@ -62,7 +62,9 @@
                         Origination
                     </h4>
                     <p class="home-align">
-						Connect Your Leads is a subsidiary of Connect Your Home, a leading national retailer in the home service industry based in Denver, Colorado. This privately owned company is an award-winning retailer for the nation’s top providers of TV, Internet, Phone & Home Security services.<br/>
+						Connect Your Leads is a subsidiary of Connect Your Home, a leading national retailer in the home service industry based in Denver, Colorado. This privately owned company is an award-winning retailer for the nation’s top providers of TV, Internet, Phone & Home Security services.
+						<br/>
+						<br/>
 						Connect Your Leads developed into its own identity gradually as different avenues opened up with companies with like goals and objectives. Now Connect Your Leads has become its own branch in the Connect Your Home Family successfully helping companies achieve their sales goals.
                     </p>
                 </div>
