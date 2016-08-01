@@ -47,34 +47,26 @@
             <div class="col-sm-12">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="service tele">
                             <a href="/television">
-                                <h4>
-                                    Television
-                                </h4>
-                                <p class="serviceParagraph">
-                                    <?php the_field('television_copy'); ?>
-                                    <a class="learnMoreLink" href="/television">
-                                        Learn more >
-                                    </a>
-                                </p>
-                            </a>
+                        <div class="service buy-leads">
+                                <div class="textHolder">
+                                    <h2>
+                                        BUY<br/>LEADS<br/>HERE
+                                    </h2>
+                                </div>
                         </div>
+                            </a>
                     </div>   
-                    <div class="col-md-6">                     
-                        <div class="service telephone">
-                            <a href="/home-phone">
-                                <h4>
-                                    Phone
-                                </h4>
-                                <p>
-                                    <?php the_field('phone_copy'); ?> 
-                                    <a class="learnMoreLink" href="/home-phone">
-                                        Learn more >
-                                    </a>
-                                </p>
-                            </a>
-                        </div>
+                    <div class="col-md-6">                  
+                        <a href="/home-phone">
+                            <div class="service sell-leads">
+                                     <div class="textHolder">
+                                        <h2>
+                                            SELL<br/>LEADS<br/>HERE
+                                        </h2>
+                                    </div>
+                            </div>
+                        </a>
                     </div>
 
                 </div>
@@ -83,35 +75,6 @@
         </div>
         <!-- /.row service-modules -->
     </section>
-    <section class="connected">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>
-                    Get Your Whole House Connected
-                </h2>
-                <div class="scraper-left">
-                    <h3>
-                        More Choices.
-                        <br /> 
-                        More Savings.
-                        <br />
-                        Just one Call.
-                    </h3>
-                    <h4>
-                        Connect everything in one call.
-                    </h4>
-                    <?php $price_image = get_field('tv_packages_price_graphic'); ?>
-                    <img class="offer" src="<?php echo $price_image['url']; ?>" alt="<?php echo $price_image['alt'] ?>" />
-                </div>
-                <div class="scraper-right">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/whole-house.jpg" alt="">
-                </div>
-            </div>
-            <!-- /.col-md-12 -->
-        </div>
-        <!-- /.row -->
-    </section>
-
 <!-- /.one-brand -->
 <?php include 'modal-form.php' ?>
 <div class="col-md-12">

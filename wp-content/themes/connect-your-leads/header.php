@@ -41,18 +41,18 @@
                         <div class="col-md-9 col-md-offset-3 col-sm-7 col-sm-offset-5">
                         <!-- BACKEND TODO: Dynamic Phone Number -->
                             <div class="phone">
-                                <span class="phone-label">Order Now:</span>
+                                <span class="phone-label">Call Us At:</span>
                 <?php
-                if(get_field('cyl_phone_number')){ ?>
+                if(get_field('cyl_phone_number', 'option')){ ?>
                     <a href="tel:<?php echo get_field('cyl_phone_number', 'option');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
                     <?php
-                        echo get_field('cyl_phone_number');
+                        echo get_field('cyl_phone_number', 'option');
                 }elseif(get_field('phone_number_one_brand')){ ?><a href="tel:<?php echo get_field('phone_number_one_brand');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
                 <?php
                         echo get_field('phone_number_one_brand');
                 }else{ ?><a href="tel:<?php echo get_field('home_phone_number', 'option');?>" onClick="ga('send', 'event', 'Call', 'ClicktoCall');" class="phone-number">
                 <?php
-                        echo get_field('home_phone_number', 'option');
+                        echo "test";
                 } ?>
                     </a>                                
                             </div>

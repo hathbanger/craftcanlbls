@@ -49,6 +49,19 @@ template {
   display: none;
 }
 
+header.page-head .brand{
+  margin-bottom: 10px;
+}
+
+.lead-pull-right{
+  float: right;
+}
+
+.service{
+  text-align: center;
+}
+
+
 .termsHolder{
   font-size: 10px;
 }
@@ -86,11 +99,26 @@ template {
   padding-left: 0px;
 }
 
+.buy-leads{
+    background: url(../images/man_phone.jpg) no-repeat right bottom;  
+    background-size: cover;
+}
+
+.sell-leads{
+    background: url(../images/woman_phone.jpg) no-repeat right bottom;  
+    background-size: cover;
+}
+
+.textHolder{
+  color:white;
+  background-color: rgba(108, 180, 63, 0.82);
+}
+
 .service:hover{
-  color: black;
+/*  color: black;
   background: rgba(189, 195, 199, .3);
   -webkit-transition: .33s all ease-in-out;
-  transition: .33s all ease-in-out;  
+  transition: .33s all ease-in-out;  */
 }
 
 #symantec-seal{
@@ -9621,6 +9649,7 @@ h1 .light-grey {
   header.page-head .brand {
     margin: 9px 0 0 0;
     display: inline;
+    margin-bottom: 10px;
   }
   .top-search,
   .phone {
