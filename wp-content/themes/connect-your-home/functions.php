@@ -2,7 +2,7 @@
 
 $dir = dirname(__FILE__);
 // register custom nav
-require_once $dir . '/../../../library/Campaign.php';
+// require_once $dir . '/../../../library/Campaign.php';
 
 add_action( 'after_setup_theme', 'cyh_setup' );
 
