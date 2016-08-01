@@ -203,51 +203,51 @@ return '<div class="call-cta">
 add_shortcode( 'phoneblock', 'phone_block' );
 // END Shortcode for Phone Number Block
 
-function get_brands($field)
-{
-  $field['choices'] = array();
+// function get_brands($field)
+// {
+//   $field['choices'] = array();
 
-  foreach (Campaign::getProviders() as $provider) {
-    $field['choices'][$provider['calp_provider_id_pk']] = $provider['calp_provider_description'];
-  }
+//   foreach (Campaign::getProviders() as $provider) {
+//     $field['choices'][$provider['calp_provider_id_pk']] = $provider['calp_provider_description'];
+//   }
 
-  return $field;
-}
+//   return $field;
+// }
 
-function get_promotion_types($field)
-{
-  $field['choices'] = array('' => 'Please select');
+// function get_promotion_types($field)
+// {
+//   $field['choices'] = array('' => 'Please select');
 
-  foreach (Campaign::getPromotionTypes() as $provider) {
+//   foreach (Campaign::getPromotionTypes() as $provider) {
 
-    if ($provider['PromotionTypeID'] == 1) {
+//     if ($provider['PromotionTypeID'] == 1) {
 
-//      continue;
-    }
+// //      continue;
+//     }
 
-    $field['choices'][$provider['product_type_id']] = $provider['type'];
-  }
+//     $field['choices'][$provider['product_type_id']] = $provider['type'];
+//   }
 
-  return $field;
-}
+//   return $field;
+// }
 
-function get_promotion_groups($field)
-{
-  $field['choices'] = array('' => 'Please select');
+// function get_promotion_groups($field)
+// {
+//   $field['choices'] = array('' => 'Please select');
 
-  foreach (Campaign::getPromotionGroups() as $provider) {
+//   foreach (Campaign::getPromotionGroups() as $provider) {
 
-    if ($provider['PromotionTypeID'] == 1) {
+//     if ($provider['PromotionTypeID'] == 1) {
 
-//      continue;
-    }
+// //      continue;
+//     }
 
-    $field['choices'][$provider['PromotionTypeID']] = $provider['Description'];
-  }
+//     $field['choices'][$provider['PromotionTypeID']] = $provider['Description'];
+//   }
 
-  return $field;
-}
+//   return $field;
+// }
 
-add_filter('acf/load_field/name=brand', 'get_brands');
-add_filter('acf/load_field/name=promotion_type', 'get_promotion_types');
-add_filter('acf/load_field/name=promotion_group', 'get_promotion_groups');
+// add_filter('acf/load_field/name=brand', 'get_brands');
+// add_filter('acf/load_field/name=promotion_type', 'get_promotion_types');
+// add_filter('acf/load_field/name=promotion_group', 'get_promotion_groups');
