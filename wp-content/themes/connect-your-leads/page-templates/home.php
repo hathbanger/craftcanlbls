@@ -71,7 +71,6 @@
 
                 </div>
             </div>
-            <!-- /.col-md-6 -->
         </div>
         <!-- /.row service-modules -->
     </section>
@@ -149,14 +148,3 @@
 <div class="col-md-12">
     <?php get_footer(); ?>
 </div>
-
-<script>
-function init() {
-    console.log('deferring the youtube script load');
-var vidDefer = document.getElementsByTagName('iframe');
-for (var i=0; i<vidDefer.length; i++) {
-if(vidDefer[i].getAttribute('data-src')) {
-vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
-} } }
-window.onload = init;
-</script>
