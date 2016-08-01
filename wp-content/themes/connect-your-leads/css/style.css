@@ -9818,6 +9818,7 @@ h1 .light-grey {
     background: none;
     border: none;
     position: relative;
+    padding-bottom: 10px;
   }
   .top-nav ul.menu > li > ul {
     max-height: 0;
