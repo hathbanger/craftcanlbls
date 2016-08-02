@@ -47,7 +47,7 @@
             <div class="col-sm-12">
                 <div class="row">
                     <div class="col-md-6">
-                            <a href="/television">
+                            <a href="/buy-leads">
                         <div class="service buy-leads">
                                 <div class="textHolder">
                                     <h2>
@@ -58,7 +58,7 @@
                             </a>
                     </div>   
                     <div class="col-md-6">                  
-                        <a href="/home-phone">
+                        <a href="/sell-leads">
                             <div class="service sell-leads">
                                      <div class="textHolder">
                                         <h2>

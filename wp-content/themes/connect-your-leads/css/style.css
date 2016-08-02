@@ -85,6 +85,16 @@ header.page-head .brand{
 
 }
 
+.hero-spacer{
+  margin-bottom: 50px;
+}
+
+input[type="submit"]{
+  width: 100% !important;
+  border-radius: 2px;
+}
+
+
 .inside-full-height a {
   color: black;
 }
@@ -8560,6 +8570,7 @@ header.page-head .brand {
   margin-top: 14px;
   padding: 4px;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .bold-upper {

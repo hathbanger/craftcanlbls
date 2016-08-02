@@ -28,21 +28,7 @@
                     <?php the_field('homepage_marquee'); ?>
                 </div>
             </div>
-            <!-- /.col-md-12 -->
         </div>
-        <!-- /.row -->
-        <div class="row service-head">
-            <div class="col-md-8 col-md-offset-2">
-                <h1>
-                    <?php the_field('homepage_heading'); ?>
-                </h1>
-                <p>
-                    <?php the_field('homepage_heading_strapline'); ?>
-                </p>
-            </div>
-            <!-- /.col-md-8 col-md-offset-2 -->
-        </div>
-        <!-- /.row service-modules -->
     </section>
 
 
