@@ -123,7 +123,7 @@
                 </h5>
                 <div class="col-md-10  col-md-offset-1">
                     <p>
-                        Connect Your Leads is a subsidiary of Connect Your Home, a leading national retailer in the home service industry based in Denver, Colorado. This privately owned company is an award-winning retailer for the nation’s top providers of TV, Internet, Phone & Home Security services.
+                        <?php the_field('who_we_are'); ?>
                         <a href="/about-us">Read More..</a>                  
                     </p>
                 </div>
