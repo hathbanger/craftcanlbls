@@ -37,7 +37,7 @@
 
         <div class="row">
                 <h2 class="home-align">
-                    <?php echo the_field('first_headline'); ?>
+                    <?php echo the_field('main_headline'); ?>
                 </h2>
             <div class="col-md-12 partner-section">
                 <div class="col-md-6" style="padding: 100px;">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-6">
                     <h4 class="home-align">
-                        Origination
+                        <?php echo the_field('first_headline'); ?>
                     </h4>
                     <p class="home-align">
                         <?php echo the_field('first_section'); ?>
