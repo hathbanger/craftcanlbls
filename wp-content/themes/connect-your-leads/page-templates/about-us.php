@@ -37,7 +37,7 @@
 
         <div class="row">
                 <h2 class="home-align">
-                    About Us: We Are Connect Your Leads
+                    <?php echo the_field('first_headline'); ?>
                 </h2>
             <div class="col-md-12 partner-section">
                 <div class="col-md-6" style="padding: 100px;">
@@ -48,10 +48,7 @@
                         Origination
                     </h4>
                     <p class="home-align">
-						Connect Your Leads is a subsidiary of Connect Your Home, a leading national retailer in the home service industry based in Denver, Colorado. This privately owned company is an award-winning retailer for the nation’s top providers of TV, Internet, Phone & Home Security services.
-						<br/>
-						<br/>
-						Connect Your Leads developed into its own identity gradually as different avenues opened up with companies with like goals and objectives. Now Connect Your Leads has become its own branch in the Connect Your Home Family successfully helping companies achieve their sales goals.
+                        <?php echo the_field('first_section'); ?>
                     </p>
                 </div>
 
@@ -62,10 +59,10 @@
             <div class="col-md-12 partner-section">
                 <div class="col-md-6">
                     <h4 class="home-align">
-                        Elite Call Center
+                        <?php echo the_field('second_headline'); ?>
                     </h4>
                     <p class="home-align">
-                        Connect Your Leads leans on the successful management of its in-house call center. This consumer centric call center houses both sales and customer service departments guaranteed to focus on the personal needs of each customer that calls requesting information. The staff consists of both English and Spanish speaking professionals who help manage customer calls. The call center speaks with over 25,000 consumers every month and currently services over 90,000 consumers across the country.
+                        <?php echo the_field('second_section'); ?>
                     </p>
                 </div>
                 <div class="col-md-6">

@@ -32,8 +32,6 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h2>Let Chat!</h2>
-                <h4>We'd love to hear from you.</h4>
                 <p>
                     <?php the_field('contact_text'); ?>
                 </p>
