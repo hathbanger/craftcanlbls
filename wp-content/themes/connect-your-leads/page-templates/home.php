@@ -82,24 +82,24 @@
         <div class="row">
             <div class="col-md-12 partner-section">
                 <h2 class="home-align">
-                    Why Partner With Connect Your Leads?
+                    <?php the_field('main_headline'); ?>
                 </h2>
 
                 <div class="col-md-6">
                     <h4 class="home-align">
-                        Buy Leads
+                        <?php the_field('first_headline'); ?>
                     </h4>
                     <p class="home-align">
-                        We have leads dealing with new movers, renters, and homeowners waiting just for you!
+                        <?php the_field('first_body'); ?>
                     </p>
                 </div>
 
                 <div class="col-md-6">
                     <h4 class="home-align">
-                        Sell Leads
+                        <?php the_field('second_headline'); ?>
                     </h4>
                     <p class="home-align">
-                        You have leads for new movers, renters, and customers looking to save on home services and we want them!
+                        <?php the_field('second_body'); ?>
                     </p>
                 </div>
 
