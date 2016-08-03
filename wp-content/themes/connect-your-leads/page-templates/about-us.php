@@ -40,7 +40,7 @@
                     <?php echo the_field('main_headline'); ?>
                 </h2>
             <div class="col-md-12 partner-section">
-                <div class="col-md-6" style="padding: 100px;">
+                <div class="col-md-6">
                 <?php $first_image = get_field('first_image');?>
                 	<img src="<?php echo $first_image['url']; ?>">
                 </div>
