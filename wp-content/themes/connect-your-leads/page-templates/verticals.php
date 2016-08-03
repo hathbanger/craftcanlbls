@@ -22,6 +22,13 @@
         <!-- /.row -->
     </section>
     <section class="verticals">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ticker">
+                    <?php the_field('homepage_marquee'); ?>
+                </div>
+            </div>
+        </div>
 
         <div class="row">
                 <div class="col-md-6" style="">
