@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="masthead">
-                    <?php $hero_image = get_field('contact_hero');?>
+                    <?php $hero_image = get_field('negative_hero');?>
                     <img src="<?php echo $hero_image['url']; ?>" alt="<?php echo $hero_image['alt'] ?>" />
                 </div>
             </div>
@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="home-align">
-                    Connect With Us
+                    <?php the_field('negative_keywords_title'); ?>
                 </h2>
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <?php the_content(); ?>
