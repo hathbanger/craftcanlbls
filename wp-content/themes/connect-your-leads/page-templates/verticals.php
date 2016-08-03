@@ -12,7 +12,7 @@
     <section class="hero">
         <div class="row">
             <div class="col-md-12">
-                <div class="masthead  hero-spacer">
+                <div class="masthead">
                     <?php $hero_image = get_field('verticals_hero');?>
                     <img src="<?php echo $hero_image['url']; ?>" alt="<?php echo $hero_image['alt'] ?>" />
                 </div>

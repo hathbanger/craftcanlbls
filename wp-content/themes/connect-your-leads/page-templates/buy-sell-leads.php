@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-md-6">
                 <h2 class="home-align">
-                    Connect With Us
+                    <?php the_field('leads_contact_headline'); ?>
                 </h2>
                 <div class="col-md-12">
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
