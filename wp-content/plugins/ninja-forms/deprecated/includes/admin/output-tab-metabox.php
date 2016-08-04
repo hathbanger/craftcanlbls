@@ -377,7 +377,7 @@ function ninja_forms_output_tab_metabox($form_id = '', $slug, $metabox){
 					break;
 				case 'submit':
 					?>
-					<input type="submit" name="<?php echo $name;?>" class="<?php echo $class; ?>" value="<?php echo $button_text;?>">
+					<input type="submit" name="<?php echo $name;?>" class="<?php echo $class; ?> btn" value="<?php echo $button_text;?>">
 					<?php
 					break;
 				case 'button':
