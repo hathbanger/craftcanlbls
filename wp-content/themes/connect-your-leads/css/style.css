@@ -55,7 +55,7 @@ template {
 }
 
 #livechat-compact-container #content{
-  background: #6cb43f;
+  background: #6cb43f !important;
 }
 
 header.page-head .brand{
