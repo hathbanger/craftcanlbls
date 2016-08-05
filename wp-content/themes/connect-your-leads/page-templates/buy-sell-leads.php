@@ -31,7 +31,15 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 pull-md-right">
+                <h2 class="home-align">
+                    <?php the_field('leads_headline'); ?>
+                </h2>
+                <div class="col-md-10  col-md-offset-1">
+                        <?php the_field('leads_text'); ?>              
+                </div>
+            </div>
+            <div class="col-md-6 pull-md-left">
                 <h2 class="home-align">
                     <?php the_field('leads_contact_headline'); ?>
                 </h2>
@@ -39,16 +47,6 @@
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <?php the_content(); ?>
                     <?php endwhile; endif; ?>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h2 class="home-align">
-                    <?php the_field('leads_headline'); ?>
-                </h2>
-                <div class="col-md-10  col-md-offset-1">
-                    
-                        <?php the_field('leads_text'); ?>                  
-                
                 </div>
             </div>
         </div>
