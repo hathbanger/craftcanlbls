@@ -54,6 +54,10 @@ template {
   text-align: right;
 }
 
+#livechat-compact-container #content{
+  background: #6cb43f;
+}
+
 header.page-head .brand{
   margin-bottom: 10px;
 }
