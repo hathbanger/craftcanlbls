@@ -54,9 +54,10 @@
                 <?php
                         echo "test";
                 } ?>
-                    </a>                                
+                    </a>                     
                             </div>
                             <!-- /phone -->
+
                         </div>
                         <!-- col-md-5 col-md-offset-7 -->
                     </div>

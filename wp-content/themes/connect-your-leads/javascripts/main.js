@@ -61,9 +61,7 @@ $(document).ready(function() {
 
 });
 
-
-
-
+  $('#menu-main-menu').append('<li style="width: 100px;"><div data-id="4b30207a01" class="livechat_button"><a href="https://www.livechatinc.com/?partner=lc_8068871&amp;utm_source=chat_button">live chat software</a></div></li>');
   var placeSearch;
   var autocomplete = [];
 
