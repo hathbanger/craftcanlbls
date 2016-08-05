@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 pull-md-right">
+            <div class="col-md-6 pull-right">
                 <h2 class="home-align">
                     <?php the_field('leads_headline'); ?>
                 </h2>
@@ -39,7 +39,7 @@
                         <?php the_field('leads_text'); ?>              
                 </div>
             </div>
-            <div class="col-md-6 pull-md-left">
+            <div class="col-md-6 pull-left">
                 <h2 class="home-align">
                     <?php the_field('leads_contact_headline'); ?>
                 </h2>
