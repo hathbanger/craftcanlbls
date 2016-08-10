@@ -63,7 +63,7 @@
 
                             <!-- <div class="col-md-2 col-sm-3 col-xs-6"> -->
                             <div class="image-cloud">
-                                <a target="_blank"> href="<?php echo $link; ?>">
+                                <a target="_blank" href="<?php echo $link; ?>">
                                     <img src="<?php echo $image; ?>">
                                 </a>
                             </div>
