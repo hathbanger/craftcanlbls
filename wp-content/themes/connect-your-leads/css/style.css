@@ -50,6 +50,18 @@ template {
   display: none;
 }
 
+
+
+.image-cloud{
+  max-width: 20%; 
+  display: inline-block;
+  margin: 10px;
+}
+
+.image-cloud-holder{
+  text-align: center;
+}
+
 .top-nav ul.menu{
   text-align: right;
 }

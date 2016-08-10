@@ -48,6 +48,40 @@
 
         <div class="row">
                 <div class="col-md-12">
+                <div class="row image-cloud-holder">
+                <?php
+
+                // check if the repeater field has rows of data
+                if( have_rows('brand_repeat') ):
+
+                    // loop through the rows of data
+                    while ( have_rows('brand_repeat') ) : the_row();
+                        $image = get_sub_field('brand_logo')['url'];
+                        $link = get_sub_field('brand_link');
+                        // display a sub field value
+                        ?>
+
+                            <!-- <div class="col-md-2 col-sm-3 col-xs-6"> -->
+                            <div class="image-cloud">
+                                <a href="<?php echo $link; ?>">
+                                    <img src="<?php echo $image; ?>">
+                                </a>
+                            </div>
+                            <!-- </div>                         -->
+
+                        <?php
+
+                    endwhile;
+
+                else :
+
+                    // no rows found
+
+                endif;
+
+                ?>
+                </div>
+
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <?php the_content(); ?>
                     <?php endwhile; endif; ?>
