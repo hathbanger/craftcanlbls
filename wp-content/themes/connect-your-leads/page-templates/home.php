@@ -24,7 +24,7 @@
     <section class="services">
         <div class="row">
             <div class="col-md-12">
-                <div class="ticker">
+                <div class="">
                     <?php the_field('homepage_marquee'); ?>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             </div>
             <!-- /.col-md-8 col-md-offset-2 -->
         </div>
-        <hr/>
+        <!-- <hr/> -->
         <!-- /.row -->
         <div class="row service-modules">
             <div class="col-sm-12">
