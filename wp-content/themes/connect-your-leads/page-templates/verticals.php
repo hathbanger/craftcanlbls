@@ -87,10 +87,8 @@
                 </div>
                 </div>
         </div>
-        <hr/>
 
     </section>
-
         <hr/>
 
         <div class="row service-modules">
