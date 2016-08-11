@@ -42,6 +42,7 @@
             </div>
             <!-- /.col-md-8 col-md-offset-2 -->
         </div>
+        <hr/>
         <!-- /.row -->
         <div class="row service-modules">
             <div class="col-sm-12">

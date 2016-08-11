@@ -75,6 +75,7 @@
             </div>
         </div>
 
+        <hr/>
         <div class="row service-modules">
             <div class="col-sm-12">
                 <div class="row">
