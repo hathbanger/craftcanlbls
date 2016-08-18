@@ -17,11 +17,9 @@
                 <div class="col-sm-4">
                     <?php the_field('footer_column_1', 'option'); ?>
                 </div>
-                <!-- /.col-md3 -->
                 <div class="col-sm-4">
                     <?php the_field('footer_column_2', 'option'); ?>
                 </div>
-                <!-- /.col-md3 -->
                 <div class="col-sm-4">
                     <?php the_field('footer_column_3', 'option'); ?>
                 </div>

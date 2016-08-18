@@ -1,5 +1,11 @@
 
+         </div>
+         </div>
+    <!-- container -->
+
         <footer>
+            <div class="border-styler"></div>
+            <div class="container">
             <div class="row terms">
                 <div class="col-md-3 pull-right">
                     <!-- <a href="#">Terms &amp; Conditions</a> -->
@@ -32,10 +38,8 @@
 
                 <div class="col-md-12"><p>&copy; Copyright <?php echo date( 'Y' )?> <a href="#">Connect Your Home</a></p></div>
             </div>
+            </div>
         </footer>
-
-         </div>
-    <!-- container -->
 
         <form method="post" action="/results" id="search-form">
             <input id="street_number" type="hidden" name="street" />
