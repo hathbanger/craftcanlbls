@@ -51,6 +51,14 @@ template {
 }
 
 
+footer{
+  background-color: #6cb43f;
+}
+
+.border-styler{
+    border-top: 4px solid #ff9933;
+    padding-top: 25px;
+}
 
 .image-cloud{
   max-width: 20%; 
@@ -8808,10 +8816,7 @@ header.page-head .brand {
   margin-right: 15px;
 }
 
-.foot-links {
-  border-top: 4px solid #ff9933;
-  padding-top: 25px;
-}
+
 
 .foot-links ul {
   list-style: none;
@@ -8823,12 +8828,12 @@ header.page-head .brand {
 }
 
 .foot-links ul > li a {
-  color: #666666;
+  color: #fff;
 }
 
-.foot-links ul > li h4 {
+.foot-links h5 {
   font-family: gotham_boldregular;
-  color: #000;
+  color: #fff200;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -8843,6 +8848,9 @@ header.page-head .brand {
 
 .copy a {
   display: block;
+}
+footer .copy a {
+  color: #fff200;
 }
 
 h1 {

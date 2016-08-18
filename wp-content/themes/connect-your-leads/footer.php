@@ -1,5 +1,11 @@
 
+         </div>
+         </div>
+    <!-- container -->
+
         <footer>
+            <div class="border-styler"></div>
+            <div class="container">
             <div class="row terms">
                 <div class="col-md-3 pull-right">
                     <!-- <a href="#">Terms &amp; Conditions</a> -->
@@ -26,10 +32,8 @@
                 <div class="col-md-12"><p>&copy; Copyright <?php echo date( 'Y' )?> <a href="#">Connect Your Leads</a></p></div>
               
             </div>
+            </div>
         </footer>
-
-         </div>
-    <!-- container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
