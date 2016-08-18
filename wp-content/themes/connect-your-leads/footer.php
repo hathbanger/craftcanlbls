@@ -15,7 +15,7 @@
             <!-- /.row -->
             <div class="row foot-links">
                 <div class="col-sm-4">
-                <a class="twitter-timeline" href="https://twitter.com/buyorsellleads">Tweets by Buy or Sell Leads</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
+                    <?php the_field('footer_column_1', 'option'); ?>
                 </div>
                 <!-- /.col-md3 -->
                 <div class="col-sm-4">
