@@ -43,15 +43,19 @@
 
 <!-- Start of LiveChat (www.livechatinc.com) code -->
 <script type="text/javascript">
-window.__lc = window.__lc || {};
-window.__lc.license = 8068871;
-(function() {
-  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-})();
+var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
+s.defer=true;s.src="https://salesiq.zoho.com/connectyourhome1/float.ls?embedname=connectyourhome";
+t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
 </script>
 <!-- End of LiveChat code -->
+
+<script type="text/javascript">
+var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
+s.defer=true;s.src="https://salesiq.zoho.com/connectyourhome1/float.ls?embedname=connectyourhome";
+t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
+$zoho.salesiq.ready=function(embedinfo){$zoho.salesiq.floatbutton.visible("hide");}
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
