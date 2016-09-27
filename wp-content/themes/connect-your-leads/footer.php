@@ -53,9 +53,7 @@
 </script>
 <!-- End of LiveChat code -->
 
-<script type="text/javascript">
-console.log('this loaded');
-var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";s.defer=true;s.src="https://salesiq.zoho.com/connectyourleads/float.ls?embedname=embed1.connectyourleads";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+<script type="text/javascript">var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";s.defer=true;s.src="https://salesiq.zoho.com/connectyourleads/float.ls?embedname=connectyourleads";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
 
 <script type="text/javascript">
 // var $zoho= $zoho || {salesiq:{values:{},ready:function(){}}};var d=document;s=d.createElement("script");s.type="text/javascript";
