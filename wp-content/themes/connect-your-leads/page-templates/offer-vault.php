@@ -36,7 +36,7 @@
                     <?php the_field('leads_headline'); ?>
                 </h2>
                 <div class="col-md-10  col-md-offset-1">
-                        <?php the_field('leads_text'); ?>              
+                        <?php the_field('leads_text'); ?>    
                 </div>
                 <div class="col-md-10  col-md-offset-1">
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
