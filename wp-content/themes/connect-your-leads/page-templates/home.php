@@ -145,7 +145,6 @@
 
 
 <!-- /.one-brand -->
-<?php include 'modal-form.php' ?>
 <div class="col-md-12">
     <?php get_footer(); ?>
 </div>
