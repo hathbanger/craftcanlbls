@@ -1,0 +1,15 @@
+.woocommerce ul.products li.product {
+	height: 400px;
+}
+.woocommerce figcaption {
+	height: 0px!important;
+	background: none!important;
+}
+.woocommerce ul.products li.product .price {
+	color: #000000!important;
+	font-weight: bold;
+}
+.woocommerce ul.products li.product h3 {
+	background-color: rgba(97, 102, 113, 1);
+	font-weight: bold;
+}

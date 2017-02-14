@@ -1,0 +1,77 @@
+*** Brewery Changelog ***
+Dec 5, 2016 - Version 1.3.7
+	* Fix for WooCommerce Cart in menu modal widget when viewing Cart/Checkout pages
+Nov 2, 2016 - Version 1.3.6
+	* Fix for showing home page video full width
+Sept 27, 2016 - Version 1.3.5
+	* Fix for animations not working on mobile screens
+Aug 17, 2016 - Version 1.3.4
+	* Fix for Masonry blog layout in WP 4.6
+	* Fix font family not updating in customizer preview
+	* Added hook for child theme customizer options
+	* Updated FontAwesome to 4.6.3
+	* Added Yelp & TripAdvisor icons for social menu
+
+July 11, 2016 - Version 1.3.3
+	* Updated for WooCommerce 2.6
+	* Added Google Map API Key support in customizer
+
+Apr 21, 2016 - Version 1.3.2
+
+	* Updated to Font Awesome v4.6.1
+
+February 29, 2016 - Version 1.3.1
+
+	* Updated for WooCommerce 2.5
+	* Updated .pot translation file
+
+August 25, 2015 - Version 1.3
+
+	* Updated for WooCommerce 2.4
+	* Improved home template loading
+	* Fixed contact template error
+
+June 12, 2015 - Version 1.2.2
+
+	* Updated to Founation version 5.5.2
+	* Updated text domain name in content-beer.php
+	* Updated 404 error page font color setting to load asynchronously
+	* Updated .pot translation file
+	* Adding theme version to stylesheets
+	* Removed header from 404 error page
+	* Adjusted footer widget section spacing
+
+May 28, 2015 - Version 1.2.1
+
+	* Fixed WooCommerce checkout div wrap
+
+May 13, 2015 - Version 1.2
+
+	* Added support for home page video background
+	* Updated contact form Google Map settings
+	* Fixed contact form display on mobile
+	* Minor updates to theme documentation
+
+April 29, 2015 - Version 1.1.2
+
+	* Fixed rem-calc() stylesheet function
+
+April 28, 2015 - Version 1.1.1
+
+	* Updated TGM class to version 2.4.2
+	* Updated customizer to load settings asynchronously
+	* Updated .pot translation file
+
+April 02, 2015 - Version 1.1
+
+	* Improved mobile scrolling
+	* Improved blog masonry post loading
+	* Minor mobile display improvements
+	* Minor shop display improvements
+	* Removed post formats
+	* Updated Rescue Shortcodes plugin activation link
+	* Updated header shop cart to add items with ajax
+
+March 28, 2015 - Version 1.0
+
+	* First release

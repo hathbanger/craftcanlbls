@@ -1,0 +1,1386 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Brewery WordPress Theme\n"
+"POT-Creation-Date: 2016-02-29 11:23-0600\n"
+"PO-Revision-Date: 2016-02-29 11:23-0600\n"
+"Last-Translator: \n"
+"Language-Team: Rescue Themes <hello@rescuethemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:20
+msgid "Error"
+msgstr ""
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:115
+msgid "All"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:116
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:117
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:118
+msgid "Devanagari"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:119
+msgid "Greek"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:120
+msgid "Greek Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:121
+msgid "Khmer"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:122
+msgid "Latin"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:123
+msgid "Latin Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:124
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:184
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:188
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:192
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: customizer/customizer-options.php:26
+msgid "none"
+msgstr ""
+
+#: customizer/customizer-options.php:27
+msgid "bounce"
+msgstr ""
+
+#: customizer/customizer-options.php:28
+msgid "flash"
+msgstr ""
+
+#: customizer/customizer-options.php:29
+msgid "pulse"
+msgstr ""
+
+#: customizer/customizer-options.php:30
+msgid "shake"
+msgstr ""
+
+#: customizer/customizer-options.php:31
+msgid "wobble"
+msgstr ""
+
+#: customizer/customizer-options.php:32
+msgid "bounceIn"
+msgstr ""
+
+#: customizer/customizer-options.php:33
+msgid "bounceInDown"
+msgstr ""
+
+#: customizer/customizer-options.php:34
+msgid "bounceInLeft"
+msgstr ""
+
+#: customizer/customizer-options.php:35
+msgid "bounceInRight"
+msgstr ""
+
+#: customizer/customizer-options.php:36
+msgid "bounceInUp"
+msgstr ""
+
+#: customizer/customizer-options.php:37
+msgid "fadeIn"
+msgstr ""
+
+#: customizer/customizer-options.php:38
+msgid "fadeInDown"
+msgstr ""
+
+#: customizer/customizer-options.php:39
+msgid "fadeInDownBig"
+msgstr ""
+
+#: customizer/customizer-options.php:40
+msgid "fadeInLeft"
+msgstr ""
+
+#: customizer/customizer-options.php:41
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: customizer/customizer-options.php:42
+msgid "fadeInRight"
+msgstr ""
+
+#: customizer/customizer-options.php:43
+msgid "fadeInRightBig"
+msgstr ""
+
+#: customizer/customizer-options.php:44
+msgid "fadeInUp"
+msgstr ""
+
+#: customizer/customizer-options.php:45
+msgid "fadeInUpBig"
+msgstr ""
+
+#: customizer/customizer-options.php:46
+msgid "lightSpeedIn"
+msgstr ""
+
+#: customizer/customizer-options.php:47
+msgid "lightSpeedOut"
+msgstr ""
+
+#: customizer/customizer-options.php:48
+msgid "rotateIn"
+msgstr ""
+
+#: customizer/customizer-options.php:49
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: customizer/customizer-options.php:50
+msgid "rotateInDownRight"
+msgstr ""
+
+#: customizer/customizer-options.php:51
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: customizer/customizer-options.php:52
+msgid "rotateInUpRight"
+msgstr ""
+
+#: customizer/customizer-options.php:53
+msgid "zoomIn"
+msgstr ""
+
+#: customizer/customizer-options.php:54
+msgid "zoomInDown"
+msgstr ""
+
+#: customizer/customizer-options.php:55
+msgid "zoomInLeft"
+msgstr ""
+
+#: customizer/customizer-options.php:56
+msgid "zoomInRight"
+msgstr ""
+
+#: customizer/customizer-options.php:57
+msgid "zoomInUp"
+msgstr ""
+
+#: customizer/customizer-options.php:62 customizer/customizer-options.php:66
+#: customizer/customizer-options.php:70
+msgid "true"
+msgstr ""
+
+#: customizer/customizer-options.php:63 customizer/customizer-options.php:67
+#: customizer/customizer-options.php:71
+msgid "false"
+msgstr ""
+
+#: customizer/customizer-options.php:104
+msgid "Typography"
+msgstr ""
+
+#: customizer/customizer-options.php:110
+msgid "Header Font"
+msgstr ""
+
+#: customizer/customizer-options.php:120
+msgid "Paragraph Font"
+msgstr ""
+
+#: customizer/customizer-options.php:130
+msgid "Page Header Font"
+msgstr ""
+
+#: customizer/customizer-options.php:140
+msgid "Link Color"
+msgstr ""
+
+#: customizer/customizer-options.php:141
+msgid "Sitewide link and button color."
+msgstr ""
+
+#: customizer/customizer-options.php:151
+msgid "Header Panel"
+msgstr ""
+
+#: customizer/customizer-options.php:160 functions.php:119
+msgid "Header"
+msgstr ""
+
+#: customizer/customizer-options.php:162
+msgid "Sitewide header options."
+msgstr ""
+
+#: customizer/customizer-options.php:171
+msgid "Site Title & Tagline"
+msgstr ""
+
+#: customizer/customizer-options.php:173
+msgid "Enter the site title and description."
+msgstr ""
+
+#: customizer/customizer-options.php:179
+msgid "Logo Font"
+msgstr ""
+
+#: customizer/customizer-options.php:189 customizer/customizer-options.php:210
+msgid "Tagline Font"
+msgstr ""
+
+#: customizer/customizer-options.php:202
+msgid "Navigation"
+msgstr ""
+
+#: customizer/customizer-options.php:204
+msgid ""
+"Your theme supports a header menu. Select which menu you would like to use. "
+"You can edit your menu content on the Menus screen in the Appearance section."
+msgstr ""
+
+#: customizer/customizer-options.php:223
+msgid "Logo Image"
+msgstr ""
+
+#: customizer/customizer-options.php:225
+msgid "Upload logo or enter site title and description."
+msgstr ""
+
+#: customizer/customizer-options.php:231
+msgid "Logo"
+msgstr ""
+
+#: customizer/customizer-options.php:234
+msgid "If no image is uploaded, theme will display Site Title &amp; Tagline."
+msgstr ""
+
+#: customizer/customizer-options.php:240
+msgid "Enter the height for the logo image. eg. 115px"
+msgstr ""
+
+#: customizer/customizer-options.php:248
+msgid "Enter the width for your logo image. eg: 305px"
+msgstr ""
+
+#: customizer/customizer-options.php:259
+msgid "Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:261
+msgid "Select the colors for the header."
+msgstr ""
+
+#: customizer/customizer-options.php:267
+msgid "Header Background"
+msgstr ""
+
+#: customizer/customizer-options.php:268
+msgid "Background color for inner pages header."
+msgstr ""
+
+#: customizer/customizer-options.php:277
+msgid "Navigation Background"
+msgstr ""
+
+#: customizer/customizer-options.php:278
+msgid "Background color for inner pages navigation."
+msgstr ""
+
+#: customizer/customizer-options.php:286
+msgid "Menu Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:287
+msgid "Font color for the main header menu."
+msgstr ""
+
+#: customizer/customizer-options.php:298 functions.php:101
+msgid "Slidedown Sidebar"
+msgstr ""
+
+#: customizer/customizer-options.php:300
+msgid "Options for the top header slidedown widget area."
+msgstr ""
+
+#: customizer/customizer-options.php:306
+msgid "Slidedown Toggle Icon"
+msgstr ""
+
+#: customizer/customizer-options.php:307
+msgid "Color for the Slidedown sidebar icon."
+msgstr ""
+
+#: customizer/customizer-options.php:316
+msgid "Slidedown Toggle Icon Hover"
+msgstr ""
+
+#: customizer/customizer-options.php:317
+msgid "Hover color for the Slidedown sidebar icon."
+msgstr ""
+
+#: customizer/customizer-options.php:325
+msgid ""
+"Enter the height in pixels for the top slidedown sidebar area. Default: "
+"500px."
+msgstr ""
+
+#: customizer/customizer-options.php:336
+msgid "Widget Visibility"
+msgstr ""
+
+#: customizer/customizer-options.php:338
+msgid "Select which pages to display the header widget section."
+msgstr ""
+
+#: customizer/customizer-options.php:344
+msgid "Pages Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:345
+msgid "Select to display the Header Sidebar widgets on Pages."
+msgstr ""
+
+#: customizer/customizer-options.php:353
+msgid "Posts Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:354
+msgid "Select to display the Header Sidebar widgets on Posts."
+msgstr ""
+
+#: customizer/customizer-options.php:362
+msgid "Search Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:363
+msgid "Select to display the Header Sidebar widgets on the Search page."
+msgstr ""
+
+#: customizer/customizer-options.php:371
+msgid "Blog Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:372
+msgid "Select to display the Header Sidebar widgets on the Blog page."
+msgstr ""
+
+#: customizer/customizer-options.php:380
+msgid "Archive Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:381
+msgid "Select to display the Header Sidebar widgets on the Archive page."
+msgstr ""
+
+#: customizer/customizer-options.php:389
+msgid "Shop Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:390
+msgid "Select to display the Header Sidebar widgets on the Shop page."
+msgstr ""
+
+#: customizer/customizer-options.php:398
+msgid "Not Found Header Widgets "
+msgstr ""
+
+#: customizer/customizer-options.php:399
+msgid "Select to display the Header Sidebar widgets on the Not Found page."
+msgstr ""
+
+#: customizer/customizer-options.php:410
+msgid "Footer Panel"
+msgstr ""
+
+#: customizer/customizer-options.php:419
+msgid "Copyright"
+msgstr ""
+
+#: customizer/customizer-options.php:421
+msgid "Options for the footer section."
+msgstr ""
+
+#: customizer/customizer-options.php:427
+msgid "Footer Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:428
+msgid "Select a background color for the inner pages footer section."
+msgstr ""
+
+#: customizer/customizer-options.php:437
+msgid "Footer Copyright"
+msgstr ""
+
+#: customizer/customizer-options.php:449
+msgid "Button"
+msgstr ""
+
+#: customizer/customizer-options.php:451
+msgid "Options for the call to action footer button."
+msgstr ""
+
+#: customizer/customizer-options.php:457
+msgid "Select to display the footer button bar."
+msgstr ""
+
+#: customizer/customizer-options.php:465
+msgid "Color of the footer button."
+msgstr ""
+
+#: customizer/customizer-options.php:474
+msgid "Text to display on the footer button."
+msgstr ""
+
+#: customizer/customizer-options.php:483
+msgid "The link for the footer button."
+msgstr ""
+
+#: customizer/customizer-options.php:493
+msgid "Home Panel"
+msgstr ""
+
+#: customizer/customizer-options.php:504
+msgid "Home Images"
+msgstr ""
+
+#: customizer/customizer-options.php:506
+msgid "Home page background image slider."
+msgstr ""
+
+#: customizer/customizer-options.php:512
+msgid "Overlay Color"
+msgstr ""
+
+#: customizer/customizer-options.php:513
+msgid "Color overlayed on the home page images."
+msgstr ""
+
+#: customizer/customizer-options.php:521
+msgid "Opacity level"
+msgstr ""
+
+#: customizer/customizer-options.php:524
+msgid "Adjust the opacity for the overlay color."
+msgstr ""
+
+#: customizer/customizer-options.php:535
+msgid "Images Duration"
+msgstr ""
+
+#: customizer/customizer-options.php:538
+msgid "Duration time for each background image."
+msgstr ""
+
+#: customizer/customizer-options.php:549
+msgid "Image Fade In"
+msgstr ""
+
+#: customizer/customizer-options.php:552
+msgid "Fade in duration for each background image."
+msgstr ""
+
+#: customizer/customizer-options.php:563 customizer/customizer-options.php:661
+msgid "Select the page that will display the main home page content."
+msgstr ""
+
+#: customizer/customizer-options.php:574
+msgid "Home Video"
+msgstr ""
+
+#: customizer/customizer-options.php:576
+msgid ""
+"Home video background. If video is active, the Home Images settings will be "
+"nullified."
+msgstr ""
+
+#: customizer/customizer-options.php:582
+msgid "Select to display a Youtube video as the home page background."
+msgstr ""
+
+#: customizer/customizer-options.php:590
+msgid "Youtube Video ID"
+msgstr ""
+
+#: customizer/customizer-options.php:598
+msgid "Loop the video playback"
+msgstr ""
+
+#: customizer/customizer-options.php:607
+msgid "Autoplay the video"
+msgstr ""
+
+#: customizer/customizer-options.php:616
+msgid "Mute the video"
+msgstr ""
+
+#: customizer/customizer-options.php:625
+msgid "Enter the time in seconds that the video will start."
+msgstr ""
+
+#: customizer/customizer-options.php:633
+msgid "Video ratio (width divided by height)"
+msgstr ""
+
+#: customizer/customizer-options.php:642
+msgid "Video fallback image"
+msgstr ""
+
+#: customizer/customizer-options.php:653
+msgid "Home Content"
+msgstr ""
+
+#: customizer/customizer-options.php:655
+msgid "The page containing the main home content."
+msgstr ""
+
+#: customizer/customizer-options.php:673
+msgid "Blog"
+msgstr ""
+
+#: customizer/customizer-options.php:675
+msgid "Options for the blog page."
+msgstr ""
+
+#: customizer/customizer-options.php:680
+msgid "The title for the blog page."
+msgstr ""
+
+#: customizer/customizer-options.php:690
+msgid "The sub-title for the blog page."
+msgstr ""
+
+#: customizer/customizer-options.php:703
+msgid "Shop"
+msgstr ""
+
+#: customizer/customizer-options.php:705
+msgid "Options for the shop page."
+msgstr ""
+
+#: customizer/customizer-options.php:710
+msgid "Header Cart Color"
+msgstr ""
+
+#: customizer/customizer-options.php:711
+msgid "Select a color for the header cart icons."
+msgstr ""
+
+#: customizer/customizer-options.php:724
+msgid "Contact Page"
+msgstr ""
+
+#: customizer/customizer-options.php:726
+msgid ""
+"To use the Google Map, activate the <a href=\"https://wordpress.org/plugins/"
+"rescue-shortcodes/\">Rescue Shortcodes plugin</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:731
+msgid "Select to display Google Map on the contact page."
+msgstr ""
+
+#: customizer/customizer-options.php:740
+msgid "Map Location"
+msgstr ""
+
+#: customizer/customizer-options.php:749
+msgid "Map Height (px)"
+msgstr ""
+
+#: customizer/customizer-options.php:758
+msgid "Map Title"
+msgstr ""
+
+#: customizer/customizer-options.php:767
+msgid "Map Zoom"
+msgstr ""
+
+#: customizer/customizer-options.php:779
+msgid "Error Page (404)"
+msgstr ""
+
+#: customizer/customizer-options.php:781
+msgid "Options for the 404 error page."
+msgstr ""
+
+#: customizer/customizer-options.php:786
+msgid "Text to display on the error page."
+msgstr ""
+
+#: customizer/customizer-options.php:794
+msgid "Error Page Text"
+msgstr ""
+
+#: customizer/customizer-options.php:795
+msgid "Select a color for the text on the error page."
+msgstr ""
+
+#: customizer/customizer-options.php:804
+msgid "Background Image"
+msgstr ""
+
+#: customizer/customizer-options.php:807
+msgid "Upload a background image for the 404 error page."
+msgstr ""
+
+#: functions.php:55
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "Inner Sidebar"
+msgstr ""
+
+#: functions.php:110
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:128
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:146
+msgid "Footer Right"
+msgstr ""
+
+#: header.php:77
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:125 woocommerce/woocommerce.php:32
+msgid "View your shopping cart"
+msgstr ""
+
+#: header.php:126 woocommerce/woocommerce.php:33
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Playball, translate this to 'off'. Do not translate into your own language.
+#: inc/fonts.php:13
+msgctxt "Norican font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Playball, translate this to 'off'. Do not translate into your own language.
+#: inc/fonts.php:17
+msgctxt "Satisfy font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Playball, translate this to 'off'. Do not translate into your own language.
+#: inc/fonts.php:21
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: inc/fonts.php:25
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid "Trackback:"
+msgstr ""
+
+#: inc/template-tags.php:87
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:122
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:125
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">Previous Post:</span>&nbsp;%title"
+msgstr ""
+
+#: inc/template-tags.php:126
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav\">Next Post:</span>&nbsp;%title"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:145 inc/template-tags.php:153
+#: inc/template-tags.php:231 inc/template-tags.php:237
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:148
+msgid "Categories: "
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "Tagged: "
+msgstr ""
+
+#: inc/template-tags.php:164 inc/template-tags.php:249
+#: template-parts/content-full.php:39 template-parts/content-page.php:41
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:179 template-parts/content.php:44
+msgid "Written by "
+msgstr ""
+
+#: inc/template-tags.php:185
+msgid "on "
+msgstr ""
+
+#: inc/template-tags.php:209
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:214
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:233
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:239
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:245
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:245
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:245
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:266
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:268
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:270
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:272
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:272
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:274
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:274
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:276
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:276
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:279
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:281
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:283
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:285
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:287
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:289
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:291
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:293
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:295
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:298
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:302
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:304
+msgid "Archives"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:161
+#: inc/tgm/plugin-activation.php:100
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:162
+#: inc/tgm/plugin-activation.php:101
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:163
+#: inc/tgm/plugin-activation.php:102
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:165
+#: inc/tgm/plugin-activation.php:104
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:166
+#: inc/tgm/plugin-activation.php:105
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:167
+#: inc/tgm/plugin-activation.php:106
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:168
+#: inc/tgm/plugin-activation.php:107
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:169
+#: inc/tgm/plugin-activation.php:108
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:170
+#: inc/tgm/plugin-activation.php:109
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:171
+#: inc/tgm/plugin-activation.php:110
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:172
+#: inc/tgm/plugin-activation.php:111
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:173
+#: inc/tgm/plugin-activation.php:112
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:174
+#: inc/tgm/plugin-activation.php:113
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:175
+#: inc/tgm/plugin-activation.php:114
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:177
+#: inc/tgm/class-tgm-plugin-activation.php:1956
+#: inc/tgm/plugin-activation.php:115
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:178
+#: inc/tgm/class-tgm-plugin-activation.php:1644
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:532
+#: inc/tgm/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1167
+#: inc/tgm/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1170
+#: inc/tgm/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1288
+#: inc/tgm/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1312
+#: inc/tgm/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2070
+#: inc/tgm/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2070
+#: inc/tgm/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:103
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/plugin-activation.php:116
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-beer.php:29
+msgid "Beer Details"
+msgstr ""
+
+#: template-parts/content-beer.php:44
+msgid "ABV: "
+msgstr ""
+
+#: template-parts/content-beer.php:54
+msgid "IBU: "
+msgstr ""
+
+#: template-parts/content-beer.php:68
+msgid "OG: "
+msgstr ""
+
+#: template-parts/content-beer.php:78
+msgid "FG: "
+msgstr ""
+
+#: template-parts/content-beer.php:88
+msgid "Color: "
+msgstr ""
+
+#: template-parts/content-beer.php:98
+msgid "Grains: "
+msgstr ""
+
+#: template-parts/content-beer.php:108
+msgid "Yeast: "
+msgstr ""
+
+#: template-parts/content-beer.php:118
+msgid "Hops: "
+msgstr ""
+
+#: template-parts/content-full.php:32 template-parts/content-page.php:34
+#: template-parts/content-single.php:51
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:41
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:50
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content.php:55
+#, php-format
+msgid "Continue reading %s "
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:60
+msgid "Your order"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Brewery"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rescuethemes.com/wordpress-themes/brewery"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Brewery is a clean, fast, and stylish ecommerce template for breweries, "
+"homebrewers and beer aficionados."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rescue Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rescuethemes.com"
+msgstr ""

@@ -1,0 +1,21 @@
+.accordion-section-content .description {
+  margin: 1em 0 1.5em;
+}
+
+ul.accordion-sub-container li.customize-control {
+  margin-bottom: 2.2em;
+}
+
+#customize-control-custom_css_textarea textarea {
+	height: 125px;
+}
+
+ul.accordion-sub-container li#customize-control-header_sidebar_pages,
+ul.accordion-sub-container li#customize-control-header_sidebar_posts,
+ul.accordion-sub-container li#customize-control-header_sidebar_search,
+ul.accordion-sub-container li#customize-control-header_sidebar_blog,
+ul.accordion-sub-container li#customize-control-header_sidebar_archive,
+ul.accordion-sub-container li#customize-control-header_sidebar_none,
+ul.accordion-sub-container li#customize-control-header_sidebar_shop {
+	margin-bottom: 0;
+}

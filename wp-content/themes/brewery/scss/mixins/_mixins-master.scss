@@ -1,0 +1,51 @@
+// Border radius
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+// Horizontally Center block
+@mixin horizontal-center {
+	display: table;
+	margin: 0 auto;
+}
+
+// Vertically center block
+@mixin vertical-center {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+// Hover delay on links
+@mixin transition($delay){ // 0.2s
+	-o-transition: all $delay ease-in-out 0s;
+	-ms-transition: all $delay ease-in-out 0s;
+	-moz-transition: all $delay ease-in-out 0s;
+	-webkit-transition: all $delay ease-in-out 0s;
+	transition: all $delay ease-in-out 0s;
+}
+
+// Box Shadow
+@mixin box-shadow {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+@mixin clearfix() {
+	*zoom: 1;
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
