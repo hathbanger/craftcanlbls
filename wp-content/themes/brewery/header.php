@@ -68,9 +68,8 @@
 
 			    <div class="top-toggle-button">
 			        <button class="nav-toggler toggle-push-top show-for-large-up"><i class="fa fa-chevron-down"></i></button>
-			    </div><!-- /buttons -->
-
-		    </div><!-- .top-toggle-wrap -->
+			    </div>
+		    </div>
 
 		<?php } // end slidedown-sidebar ?>
 
