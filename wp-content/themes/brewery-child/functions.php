@@ -5,4 +5,11 @@ function brewery_enqueue_parent_theme_style() {
     wp_dequeue_style( 'brewery-style' );
     wp_enqueue_style( 'brewery-child-style', get_stylesheet_directory_uri().'/style.css' );
 }
+
+function quote( $atts, $content = null ) {
+    return '<div class="right text">"'.$content.'"</div>';
+}
+
 add_action( 'wp_enqueue_scripts', 'brewery_enqueue_parent_theme_style', 99 );
+
+add_shortcode("quote", "quote");
