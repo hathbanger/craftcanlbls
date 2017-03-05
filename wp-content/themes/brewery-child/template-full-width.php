@@ -1,11 +1,10 @@
 <?php
 /**
- * Template Name: Hidden Content
+ * Template Name: Full Width
  *
  */
 
 get_header(); ?>
-
 
 <?php if ( get_theme_mod( 'header_sidebar_pages' ) ) { ?>
 
@@ -34,14 +33,8 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
+				<?php get_template_part( 'template-parts/content', 'full' ); ?>
 
-				<?php 
-					if ($_COOKIE["cclEmail"] == "true"){
-							get_template_part( 'custom-template-parts/content', 'full-custom' );
-					} else {
-							get_template_part( 'template-parts/content', 'full' );
-					}
-				?>
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
 					if ( comments_open() || get_comments_number() ) :
